@@ -78,11 +78,32 @@
       "id": 11
     },
     {
-      "titulo": "Educação coorporativa",
-      "descricao": "7 mil visualizações",
-      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "titulo": "Como deixar o Layout Responsivo no seu site",
+      "descricao": "5 mil visualizações",
+      "url": "https://www.youtube.com/embed/kyFiT4ofMwk",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
-      "id": 12
+      "id": 13
+    },
+    {
+      "titulo": "COMO CONSEGUI MINHA VAGA DE INSTRUTORA/DESENVOLVEDORA NA ALURA?",
+      "descricao": "7 mil visualizações",
+      "url": "https://www.youtube.com/embed/-dZ0CmEDG9w",
+      "imagem": "https://yt3.googleusercontent.com/84ALFuw4UCyfL1TyoMU77D-I6xngPjn2X0kbx2bMAyoFzWwR-utcrbDn_MuNJcroPcmU9NdGGQ=s176-c-k-c0x00ffffff-no-rj",
+      "id": 15
+    },
+    {
+      "titulo": "Você precisa entender o que é API pra melhorar como DEV!",
+      "descricao": "1 mil visualizações",
+      "url": "https://www.youtube.com/embed/PIro1he52Xw",
+      "imagem": "https://yt3.ggpht.com/84ALFuw4UCyfL1TyoMU77D-I6xngPjn2X0kbx2bMAyoFzWwR-utcrbDn_MuNJcroPcmU9NdGGQ=s48-c-k-c0x00ffffff-no-rj",
+      "id": 16
+    },
+    {
+      "titulo": "Profeta Skills - Achei minha posição na Anubis, meio! #57",
+      "descricao": "2 mil visualizações",
+      "url": "https://www.youtube.com/embed/s4TvF_7s3CI",
+      "imagem": "https://yt3.ggpht.com/u-k11ES7el8xNOIYo0bA_eawWEF4V4bc_21wSM-nIhfKEW3qQl863XC4NWSihJfBlfOcY8o=s48-c-k-c0x00ffffff-no-rj",
+      "id": 17
     }
   ]
 }
