@@ -8,7 +8,7 @@
 ## Tecnologias utilizadas durante o curso
 * Javascript
 * NodeJS
-* Json-server
+* Json-server (npm run serveres)
 
 ## Tecnologias utilizadas no projeto
 * HTML

@@ -73,6 +73,18 @@ body {
     font-size: 21px;
 }
 
+.tela__erro {
+    background-color: white;
+}
+
+.mensagem__erro {
+    color: var(--azul-medio);
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
 .pesquisar__input {
     width: 260px;
     height: 32px;
@@ -105,4 +117,11 @@ body {
         height: 100vh;
     }
 
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 3rem 2rem;
+    width: 350px;
 }
