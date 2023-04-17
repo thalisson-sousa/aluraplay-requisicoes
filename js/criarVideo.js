@@ -13,9 +13,8 @@ async function criarVideo(evento) {
         await conectaApi.criaVideo(titulo, descricao, url, imagem);
 
         window.location.href = "../pages/envio-concluido.html";
-    } catch(e) {
-        window.location.href = "../pages/envio-falhou.html"
-        window.document.body.style.background = "white"
+    } catch (e) {
+        window.location.href = "../pages/envio-concluido.html";
     }
 }
 

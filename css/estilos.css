@@ -118,10 +118,3 @@ body {
     }
 
 }
-
-img {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 3rem 2rem;
-    width: 350px;
-}
