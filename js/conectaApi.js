@@ -1,12 +1,12 @@
 async function listaVideos() {
-    const conexao = await fetch("http://localhost:3000/videos");
+    const conexao = await fetch("https://api-rest-moves.vercel.app/videos");
     const conexaoConvertida = await conexao.json();
     
     return conexaoConvertida;
 }
 
 async function criaVideo(titulo, descricao, url, imagem) {
-    const conexao = await fetch("http://localhost:3000/video", {
+    const conexao = await fetch("https://api-rest-moves.vercel.app/videos", {
         method: "POST",
         headers: {
             "Content-type": "application/json"
@@ -19,14 +19,14 @@ async function criaVideo(titulo, descricao, url, imagem) {
         })
     })
     if (!conexao.ok) {
-        throw new Error("Não foi possivel enviar o video")
+        throw new Error("Não foi possivel enviar o video");
     }
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida;
 }
 
 async function buscaVideo(termoDeBusca) {
-    const conexao = await fetch(`http://localhost:3000/videos?q=${termoDeBusca}`);
+    const conexao = await fetch(`https://api-rest-moves.vercel.app/videos?q=${termoDeBusca}`);
     const conexaoConvertida = conexao.json();
 
     return conexaoConvertida;
